@@ -1,0 +1,28 @@
+{
+  "agent_name": "Chat Agent",
+  "agent_id": "698b28fbd6b1284eb616bf79",
+  "test_message": "Hello! Can you tell me what you can help me with?",
+  "expected_purpose": "General conversational chatbot that responds to user queries",
+  "timestamp": "2026-02-10T12:48:41.623736",
+  "is_valid_json": true,
+  "validation_errors": [],
+  "actual_response": {
+    "status": "success",
+    "result": {
+      "summary": "Overview of AI assistant capabilities",
+      "data": {
+        "response": "Hello! I can help you with a wide range of queries, including answering general knowledge questions, providing recommendations, assisting with planning or organization, offering explanations on various topics, and supporting basic problem-solving. If you have a specific task or question in mind, just let me know, and I\u2019ll do my best to assist you!",
+        "follow_up_suggestions": [
+          "What would you like help with today?",
+          "Are you looking for information on a specific topic?",
+          "Can I assist you with planning or recommendations?"
+        ]
+      }
+    },
+    "metadata": {
+      "agent_name": "Chat Agent",
+      "timestamp": "2024-06-14T15:34:12Z"
+    }
+  },
+  "raw_response": "{\n  \"status\": \"success\",\n  \"result\": {\n    \"summary\": \"Overview of AI assistant capabilities\",\n    \"data\": {\n      \"response\": \"Hello! I can help you with a wide range of queries, including answering general knowledge questions, providing recommendations, assisting with planning or organization, offering explanations on various topics, and supporting basic problem-solving. If you have a specific task or question in mind, just let me know, and I\u2019ll do my best to assist you!\",\n      \"follow_up_suggestions\": [\n        \"What would you like help with today?\",\n        \"Are you looking for information on a specific topic?\",\n        \"Can I assist you with planning or recommendations?\"\n      ]\n    }\n  },\n  \"metadata\": {\n    \"agent_name\": \"Chat Agent\",\n    \"timestamp\": \"2024-06-14T15:34:12Z\"\n  }\n}"
+}

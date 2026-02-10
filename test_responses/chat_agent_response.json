@@ -1,0 +1,31 @@
+{
+  "agent_name": "Chat Agent",
+  "agent_id": "698b28fbd6b1284eb616bf79",
+  "test_input": "Hello! Can you tell me what you can help me with?",
+  "response": {
+    "status": "success",
+    "result": {
+      "summary": "Overview of AI assistant capabilities",
+      "data": {
+        "response": "Hello! I can help you with a wide range of queries, including answering general knowledge questions, providing recommendations, assisting with planning or organization, offering explanations on various topics, and supporting basic problem-solving. If you have a specific task or question in mind, just let me know, and I\u2019ll do my best to assist you!",
+        "follow_up_suggestions": [
+          "What would you like help with today?",
+          "Are you looking for information on a specific topic?",
+          "Can I assist you with planning or recommendations?"
+        ]
+      }
+    },
+    "metadata": {
+      "agent_name": "Chat Agent",
+      "timestamp": "2024-06-14T15:34:12Z"
+    }
+  },
+  "field_types": {
+    "result.summary": "string",
+    "result.data": "object",
+    "result.data.response": "string",
+    "result.data.follow_up_suggestions": "array"
+  },
+  "status": "passed",
+  "timestamp": "2026-02-10T00:00:00Z"
+}

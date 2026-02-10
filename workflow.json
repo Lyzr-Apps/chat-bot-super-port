@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "input", "type": "Input", "label": "User Query", "nodeCategory": "input"},
+    {"id": "chat_agent", "type": "Agent", "label": "Chat Agent", "nodeCategory": "agent"},
+    {"id": "output", "type": "Output", "label": "Response", "nodeCategory": "end"}
+  ],
+  "edges": [
+    {"source": "input", "target": "chat_agent"},
+    {"source": "chat_agent", "target": "output"}
+  ]
+}

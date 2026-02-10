@@ -1,0 +1,11 @@
+{
+  "agents": [
+    {
+      "name": "Chat Agent",
+      "agent_id": "698b28fbd6b1284eb616bf79",
+      "type": "single",
+      "model": "gpt-4.1",
+      "provider": "openai"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "agent_name": "Chat Agent",
+  "agent_id": "698b28fbd6b1284eb616bf79",
+  "agent_purpose": "General conversational chatbot that responds to user queries",
+  "description": "Chat Agent response schema with conversational response text and follow-up suggestions array",
+  "response_schema": {
+    "status": "string",
+    "result": {
+      "summary": "string",
+      "data": {
+        "response": "string",
+        "follow_up_suggestions": [
+          "string"
+        ]
+      }
+    },
+    "metadata": {
+      "agent_name": "string",
+      "timestamp": "string"
+    }
+  },
+  "example_response": {
+    "status": "success",
+    "result": {
+      "summary": "Sample conversational response provided.",
+      "data": {
+        "response": "Hello! How can I assist you today? If you have any questions or need information, feel free to ask.",
+        "follow_up_suggestions": [
+          "What information are you looking for?",
+          "Do you need help with something specific?",
+          "Would you like tips on how to use this chat assistant?"
+        ]
+      }
+    },
+    "metadata": {
+      "agent_name": "Chat Agent",
+      "timestamp": "2024-06-09T15:44:29Z"
+    }
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-02-10T12:48:59.102770",
+  "test_message_used": "Hello, provide a sample response",
+  "actual_test_response": {
+    "status": "success",
+    "result": {
+      "summary": "Sample conversational response provided.",
+      "data": {
+        "response": "Hello! How can I assist you today? If you have any questions or need information, feel free to ask.",
+        "follow_up_suggestions": [
+          "What information are you looking for?",
+          "Do you need help with something specific?",
+          "Would you like tips on how to use this chat assistant?"
+        ]
+      }
+    },
+    "metadata": {
+      "agent_name": "Chat Agent",
+      "timestamp": "2024-06-09T15:44:29Z"
+    }
+  }
+}
