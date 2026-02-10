@@ -20,7 +20,7 @@ import { Separator } from '@/components/ui/separator'
 
 // Theme colors extracted from Emerald theme HSL values (raw values only, no hsl() wrapper)
 const THEME_VARS = {
-  '--background': '0 0% 0%',
+  '--background': '160 35% 96%',
   '--foreground': '160 35% 8%',
   '--card': '160 30% 99%',
   '--card-foreground': '160 35% 8%',
@@ -462,7 +462,7 @@ export default function Home() {
       <div
         className="fixed inset-0 pointer-events-none"
         style={{
-          background: 'linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(0 0% 2%) 30%, hsl(0 0% 1%) 60%, hsl(0 0% 0%) 100%)',
+          background: 'linear-gradient(135deg, hsl(160 40% 94%) 0%, hsl(180 35% 93%) 30%, hsl(160 35% 95%) 60%, hsl(140 40% 94%) 100%)',
           zIndex: 0,
         }}
       />
